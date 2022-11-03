@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jdbc"
+version = "0.1.0"
+description = ""
+authors = ["Bui Thu Ha <thuhak22ba@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+JayDeBeApi = "^1.2.3"
+pandas = "^1.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^22.8.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
